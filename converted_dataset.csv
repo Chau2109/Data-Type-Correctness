@@ -1,0 +1,582 @@
+,att_name,datatype,semantic_type,correct_data_type
+0,id,bigint,Identifier,bigint
+1,name,character_varying,Name,character_varying
+2,created_at,timestamp,event timestamp,timestamp
+3,updated_at,timestamp,event timestamp,timestamp
+4,right_identifier,character_varying,Identifier,character_varying
+5,name,character_varying,Name,character_varying
+6,general_image,character_varying,image,bytea
+7,plate_image,character_varying,image,bytea
+8,stream_image,character_varying,image,bytea
+9,mess_parking_right_id,bigint,Identifier,bigint
+10,passage_request_id,bigint,Identifier,bigint
+11,needs_attention,boolean,,boolean
+12,actor_type,bigint,Category,bigint
+13,group_allocation_id,bigint,Identifier,bigint
+14,status,bigint,Description,character_varying
+15,id,uuid,,uuid
+16,id,bigint,Identifier,bigint
+17,event_context,json,JSON Object,json
+18,car_park_id,bigint,Identifier,bigint
+19,in_violation_from,timestamp,event timestamp,timestamp
+20,actor_id,bigint,Identifier,bigint
+21,early_arrival,boolean,,boolean
+22,key,character_varying,Role,character_varying
+23,value,character_varying,Role,character_varying
+24,created_at,timestamp,event timestamp,timestamp
+25,updated_at,timestamp,event timestamp,timestamp
+26,instance_id,uuid,,uuid
+27,ip_address,character_varying,ip address,inet
+28,payload,json,data,json
+29,created_at,timestamp,event timestamp,timestamp
+30,id,uuid,,uuid
+31,entity_id,bigint,Identifier,bigint
+32,actor_type,bigint,Role,character_varying
+33,updated_at,timestamp,event timestamp,timestamp
+34,event,character_varying,Name,character_varying
+35,created_at,timestamp,event timestamp,timestamp
+36,actor_id,bigint,Identifier,bigint
+37,previous_version,json,configuration,json
+38,creation_date,timestamp,event timestamp,timestamp
+39,creator,character_varying,Role,character_varying
+40,operation,character_varying,,character_varying
+41,table_name,character_varying,Name,character_varying
+42,id,bigint,Identifier,bigint
+43,payload,json,data,json
+44,access_token,character_varying,token,character_varying
+45,refresh_token,character_varying,token,character_varying
+46,id_token,character_varying,token,character_varying
+47,updated_at,timestamp,event timestamp,timestamp
+48,created_at,timestamp,event timestamp,timestamp
+49,uuid,uuid,uuid,uuid
+50,user_id,bigint,Identifier,bigint
+51,id,bigint,Identifier,bigint
+52,expires_at,bigint,event timestamp,timestamp
+53,id,bigint,Identifier,bigint
+54,right_identifier,character_varying,Identifier,character_varying
+55,banned_by_user_name,character_varying,Name,character_varying
+56,reason,character_varying,Description,character_varying
+57,created_at,timestamp,event timestamp,timestamp
+58,uuid,uuid,uuid,uuid
+59,updated_at,timestamp,event timestamp,timestamp
+60,car_park_id,bigint,Identifier,bigint
+62,id,character_varying,Identifier,character_varying
+63,owner,uuid,uuid,uuid
+64,created_at,timestamp,event timestamp,timestamp
+65,updated_at,timestamp,event timestamp,timestamp
+66,public,boolean,,boolean
+67,avif_autodetection,boolean,,boolean
+68,file_size_limit,bigint,Size,bigint
+69,name,character_varying,Name,character_varying
+70,organisation_uuid,character_varying,uuid,uuid
+71,id,bigint,Identifier,bigint
+72,building_id,bigint,Identifier,bigint
+73,created_at,timestamp,event timestamp,timestamp
+74,updated_at,timestamp,event timestamp,timestamp
+75,organisation_name,character_varying,Name,character_varying
+76,created_at,timestamp,event timestamp,timestamp
+77,updated_at,timestamp,event timestamp,timestamp
+78,time_zone,character_varying,,","
+79,address_line_2,character_varying,,","
+80,address_line_1,character_varying,,","
+81,name,character_varying,name,character_varying
+82,id,bigint,Identifier,bigint
+83,passage_request_id,bigint,Identifier,bigint
+84,tenant_id,bigint,Identifier,bigint
+85,id,bigint,Identifier,bigint
+86,created_at,timestamp,event timestamp,timestamp
+87,right_identifier,character_varying,event timestamp,character_varying
+88,status,character_varying,status,character_varying
+89,updated_at,timestamp,event timestamp,timestamp
+90,camera_type,character_varying,Category,character_varying
+91,car_park_gate_id,bigint,Identifier,bigint
+92,id,bigint,Identifier,bigint
+93,created_at,timestamp,event timestamp,timestamp
+94,updated_at,timestamp,event timestamp,timestamp
+95,name,character_varying,name,character_varying
+96,gate_id,bigint,Identifier,bigint
+97,id,bigint,Identifier,bigint
+98,allowed_displays_count,bigint,Count,bigint
+99,created_at,timestamp,event timestamp,timestamp
+100,updated_at,timestamp,event timestamp,timestamp
+101,register,bigint,,","
+102,created_at,timestamp,event timestamp,timestamp
+103,id,bigint,Identifier,bigint
+104,updated_at,timestamp,event timestamp,timestamp
+105,show_availability,boolean,Flag,boolean
+106,group_allocation_id,bigint,Identifier,bigint
+107,counting_board_id,bigint,Identifier,bigint
+108,id,bigint,Identifier,bigint
+109,gate_id,bigint,Identifier,bigint
+110,command_bit,bigint,,bytea
+111,created_at,timestamp,event timestamp,timestamp
+112,updated_at,timestamp,event timestamp,timestamp
+113,description,character_varying,Description,character_varying
+115,event,character_varying,Name,character_varying
+116,updated_at,timestamp,event timestamp,timestamp
+117,plc_port,bigint,position,bigint
+118,disabled,boolean,Flag,boolean
+119,plc_uid,bigint,Identifier,bigint
+120,plc_address,character_varying,Address,character_varying
+121,name,character_varying,Name,character_varying
+122,uuid,uuid,uuid,uuid
+123,id,bigint,Identifier,bigint
+124,car_park_id,bigint,Identifier,bigint
+125,created_at,timestamp,event timestamp,timestamp
+126,camera_host,character_varying,Role,character_varying
+127,status,character_varying,status,character_varying
+129,updated_at,timestamp,event timestamp,timestamp
+130,created_at,timestamp,event timestamp,timestamp
+131,camera_port,bigint,position,bigint
+132,car_park_id,bigint,Identifier,bigint
+133,id,bigint,Identifier,bigint
+134,name,character_varying,name,character_varying
+135,tuesday,boolean,,boolean
+136,monday,boolean,,boolean
+137,sunday,boolean,,boolean
+138,creator_id,bigint,Identifier,bigint
+139,updated_at,timestamp,event timestamp,timestamp
+140,created_at,timestamp,event timestamp,timestamp
+141,recurring,boolean,Flag,boolean
+142,id,bigint,Identifier,bigint
+143,description,character_varying,Description,character_varying
+144,start_datetime,timestamp,event timestamp,timestamp
+145,end_datetime,timestamp,event timestamp,timestamp
+146,extras,json,data,json
+147,car_park_id,bigint,Identifier,bigint
+148,saturday,boolean,,boolean
+149,friday,boolean,,boolean
+150,thursday,boolean,,boolean
+151,wednesday,boolean,,boolean
+152,pos_uuid,character_varying,uuid,uuid
+153,name,character_varying,Name,character_varying
+154,car_park_id,bigint,Identifier,bigint
+155,created_at,timestamp,event timestamp,timestamp
+156,updated_at,timestamp,event timestamp,timestamp
+157,id,bigint,Identifier,bigint
+158,building_id,bigint,Identifier,bigint
+159,created_at,timestamp,event timestamp,timestamp
+160,updated_at,timestamp,event timestamp,timestamp
+161,free_public_group,boolean,Flag,boolean
+162,down_time_type,character_varying,Category,character_varying
+163,minion_uuid,character_varying,uuid,","
+164,right_panel_ttl,bigint,,","
+165,name,character_varying,Name,character_varying
+166,passage_requests_ttl,bigint,,","
+167,data_ttl,bigint,,","
+168,id,bigint,Identifier,bigint
+169,total_spots,bigint,Total,bigint
+170,name,character_varying,Name,character_varying
+171,associated_data,character_varying,data,","
+172,parent_key,uuid,uuid,uuid
+173,comment,character_varying,Comment,character_varying
+174,id,uuid,,uuid
+175,created,timestamp,event timestamp,timestamp
+176,expires,timestamp,event timestamp,timestamp
+178,key_id,bigint,Identifier,bigint
+179,key_context,bytea,binary data,bytea
+180,raw_key_nonce,bytea,binary data,bytea
+181,raw_key,bytea,binary data,bytea
+182,decrypted_raw_key,bytea,binary data,bytea
+184,description,character_varying,Description,character_varying
+185,decrypted_secret,character_varying,data,","
+186,secret,character_varying,Description,character_varying
+187,name,character_varying,Name,character_varying
+188,id,uuid,,","
+189,key_id,uuid,,","
+190,nonce,bytea,binary data,bytea
+191,created_at,timestamp,event timestamp,timestamp
+192,updated_at,timestamp,event timestamp,timestamp
+193,reason,character_varying,Description,character_varying
+194,updated_at,timestamp,event timestamp,timestamp
+195,created_at,timestamp,event timestamp,timestamp
+196,exempted_by_id,bigint,Identifier,bigint
+197,activity_log_id,bigint,Identifier,bigint
+198,id,bigint,Identifier,bigint
+199,auth_code,character_varying,,","
+200,code_challenge,character_varying,,","
+201,created_at,timestamp,event timestamp,timestamp
+202,id,uuid,,","
+203,user_id,uuid,,","
+204,provider_access_token,character_varying,token,character_varying
+205,provider_refresh_token,character_varying,token,character_varying
+207,authentication_method,character_varying,Description,character_varying
+208,updated_at,timestamp,event timestamp,timestamp
+209,provider_type,character_varying,event timestamp,character_varying
+210,description,character_varying,Description,character_varying
+211,name,character_varying,Name,character_varying
+212,id,bigint,Identifier,bigint
+213,tenant_allocation_id,bigint,Identifier,bigint
+214,consumes_parking_spots,boolean,Count,bigint
+215,guaranteed,boolean,Flag,boolean
+216,spots_allocated,bigint,Count,bigint
+217,created_at,timestamp,event timestamp,timestamp
+218,updated_at,timestamp,event timestamp,timestamp
+219,long_term,boolean,Flag,boolean
+220,default_parking_right_duration,bigint,Duration,bigint
+221,permit_uuid,uuid,uuid,uuid
+222,public_group_setting_id,bigint,Identifier,bigint
+223,default_parking_right_duration_type,character_varying,Category,character_varying
+224,grace_minutes_on_entry,bigint,Duration,bigint
+225,uuid,uuid,uuid,uuid
+226,id,character_varying,Identifier,character_varying
+227,updated_at,timestamp,event timestamp,timestamp
+228,created_at,timestamp,event timestamp,timestamp
+229,provider,character_varying,Role,character_varying
+230,last_sign_in_at,timestamp,event timestamp,timestamp
+231,email,character_varying,Email,character_varying
+232,identity_data,json,data,json
+233,user_id,uuid,Identifier,uuid
+234,created_at,timestamp,event timestamp,timestamp
+235,id,uuid,,uuid
+236,raw_base_config,character_varying,configuration,json
+237,uuid,uuid,uuid,uuid
+238,updated_at,timestamp,event timestamp,timestamp
+239,raw_key,bytea,binary data,bytea
+240,comment,character_varying,Comment,character_varying
+241,user_data,character_varying,data,json
+242,key_context,bytea,,","
+243,key_id,bigint,Identifier,bigint
+244,parent_key,uuid,uuid,uuid
+245,associated_data,character_varying,data,json
+246,id,uuid,,","
+248,created,timestamp,event timestamp,timestamp
+249,expires,timestamp,event timestamp,timestamp
+251,raw_key_nonce,bytea,,bytea
+252,created_at,timestamp,event timestamp,timestamp
+253,updated_at,timestamp,event timestamp,timestamp
+254,status,character_varying,Status,character_varying
+255,process_errors,json,,json
+256,building_id,bigint,Identifier,bigint
+257,id,bigint,Identifier,bigint
+258,initiator_user_id,bigint,Identifier,bigint
+259,associated_columns,character_varying,Role,character_varying
+260,nonce_column,character_varying,Role,character_varying
+262,format_type,character_varying,Category,character_varying
+264,key_id,character_varying,Identifier,character_varying
+265,key_id_column,character_varying,Role,character_varying
+266,attnum,bigint,,","
+267,key_id,character_varying,Identifier,character_varying
+268,nonce_column,character_varying,Role,character_varying
+269,view_name,character_varying,name,character_varying
+272,col_description,character_varying,Description,character_varying
+274,priority,bigint,Rating,bigint
+275,security_invoker,boolean,,","
+276,key_id_column,character_varying,Role,character_varying
+277,associated_columns,character_varying,Collection,character_varying
+278,format_type,character_varying,Category,character_varying
+280,updated_at,timestamp,event timestamp,timestamp
+281,id,uuid,,","
+282,session_id,uuid,,","
+283,created_at,timestamp,event timestamp,timestamp
+284,authentication_method,character_varying,,character_varying
+285,factor_id,uuid,,uuid
+286,created_at,timestamp,event timestamp,timestamp
+287,verified_at,timestamp,event timestamp,timestamp
+288,ip_address,inet,ip address,inet
+289,id,uuid,,uuid
+290,secret,character_varying,Description,character_varying
+291,created_at,timestamp,event timestamp,timestamp
+292,id,uuid,,uuid
+293,user_id,uuid,,uuid
+295,friendly_name,character_varying,name,character_varying
+296,updated_at,timestamp,event timestamp,timestamp
+298,hash,character_varying,,character_varying
+299,name,character_varying,name,character_varying
+300,id,bigint,Identifier,bigint
+301,executed_at,timestamp,event timestamp,timestamp
+302,id,bigint,Identifier,bigint
+303,updated_at,timestamp,event timestamp,timestamp
+304,created_at,timestamp,event timestamp,timestamp
+305,user_id,bigint,Identifier,bigint
+306,notification_id,bigint,Identifier,bigint
+307,body,character_varying,Content,character_varying
+308,id,bigint,Identifier,bigint
+309,actor_type,character_varying,Category,character_varying
+310,updated_at,timestamp,event timestamp,timestamp
+311,created_at,timestamp,event timestamp,timestamp
+312,depublished_at,timestamp,event timestamp,timestamp
+313,published_at,timestamp,event timestamp,timestamp
+314,actor_id,bigint,Identifier,bigint
+315,kind,character_varying,Category,character_varying
+316,bucket_id,character_varying,Identifier,character_varying
+317,updated_at,timestamp,event timestamp,timestamp
+318,id,uuid,,","
+319,name,character_varying,Name,character_varying
+320,metadata,json,metadata,json
+321,last_accessed_at,timestamp,event timestamp,timestamp
+322,owner,uuid,,","
+324,version,character_varying,,character_varying
+325,created_at,timestamp,event timestamp,timestamp
+326,status,character_varying,Status,character_varying
+327,created_at,timestamp,event timestamp,timestamp
+328,updated_at,timestamp,event timestamp,timestamp
+329,publisher_type,character_varying,Category,character_varying
+330,payload,character_varying,data,json
+331,id,bigint,Identifier,bigint
+332,topic,character_varying,Category,character_varying
+333,meta_data,json,metadata,json
+334,external_group_id,bigint,Identifier,bigint
+335,end_datetime,timestamp,event timestamp,timestamp
+336,created_by,character_varying,event timestamp,timestamp
+337,status,character_varying,Status,character_varying
+338,creator_uuid,character_varying,Identifier,","
+339,uuid,uuid,uuid,uuid
+340,updated_at,timestamp,event timestamp,timestamp
+341,permit_id,bigint,Identifier,bigint
+342,additional_info,json,data,json
+343,created_at,timestamp,event timestamp,timestamp
+344,label,character_varying,Category,character_varying
+345,deleted_at,timestamp,event timestamp,timestamp
+346,right_identifier,character_varying,Identifier,character_varying
+347,name,character_varying,Name,character_varying
+348,id,bigint,Identifier,bigint
+349,start_datetime,timestamp,event timestamp,timestamp
+350,vehicle_direction,character_varying,coordinate,double_precision
+351,vehicle_direction_confidence,character_varying,proportion,double_precision
+352,vehicle_direction_angle,character_varying,coordinate,double_precision
+353,vehicle_speed_indication,character_varying,,","
+354,characters_confidence,character_varying,proportion,double_precision
+355,status,bigint,Status,character_varying
+356,observed_at,timestamp,event timestamp,timestamp
+357,updated_at,timestamp,event timestamp,timestamp
+358,created_at,timestamp,event timestamp,timestamp
+359,car_park_camera_id,bigint,Identifier,bigint
+360,id,bigint,Identifier,bigint
+361,message_type,character_varying,Category,character_varying
+362,observed_as,character_varying,Description,character_varying
+363,global_id,character_varying,Identifier,character_varying
+364,camera_name,character_varying,name,character_varying
+365,metadata,json,metadata,json
+366,confidence,character_varying,proportion,double_precision
+367,right_identifier,character_varying,Identifier,character_varying
+369,country,character_varying,location,character_varying
+370,name,character_varying,name,character_varying
+371,updated_at,timestamp,event timestamp,timestamp
+372,default_open_duration,bigint,Duration,double_precision
+373,default_relay_number,bigint,Count,bigint
+374,uuid,uuid,uuid,uuid
+375,car_park_id,bigint,Identifier,bigint
+376,id,bigint,Identifier,bigint
+377,created_at,timestamp,event timestamp,timestamp
+378,created_at,timestamp,event timestamp,timestamp
+379,additional_info,json,data,json
+380,user_uuid,character_varying,uuid,character_varying
+381,organisation_uuid,character_varying,uuid,character_varying
+382,name,character_varying,name,character_varying
+383,id,bigint,Identifier,bigint
+384,updated_at,timestamp,event timestamp,timestamp
+385,uuid,uuid,uuid,uuid
+386,updated_at,timestamp,event timestamp,timestamp
+387,created_at,timestamp,event timestamp,timestamp
+388,permit_owner_id,bigint,Identifier,bigint
+389,end_date,date,event date,date
+390,start_date,date,event date,date
+391,id,bigint,Identifier,bigint
+392,max_nr_concurrent_rights,bigint,Count,bigint
+393,name,character_varying,name,character_varying
+394,email,character_varying,Email,character_varying
+395,max_exec_time,double_precision,Duration,double_precision
+396,jit_functions,bigint,,bigint
+397,jit_generation_time,double_precision,Duration,double_precision
+398,jit_inlining_count,bigint,Count,bigint
+399,jit_inlining_time,double_precision,Duration,double_precision
+400,jit_optimization_count,bigint,Count,bigint
+401,min_exec_time,double_precision,Duration,double_precision
+402,total_exec_time,double_precision,Duration,double_precision
+403,calls,bigint,,bigint
+404,stddev_plan_time,double_precision,Duration,double_precision
+405,mean_plan_time,double_precision,Duration,double_precision
+406,jit_optimization_time,double_precision,Duration,double_precision
+407,max_plan_time,double_precision,Duration,double_precision
+408,jit_emission_count,bigint,Count,bigint
+409,jit_emission_time,double_precision,Duration,double_precision
+410,wal_fpi,bigint,,","
+411,temp_blk_write_time,double_precision,Duration,double_precision
+412,temp_blk_read_time,double_precision,Duration,double_precision
+413,blk_write_time,double_precision,Duration,double_precision
+414,blk_read_time,double_precision,Duration,double_precision
+415,temp_blks_written,bigint,,bigint
+416,temp_blks_read,bigint,,bigint
+417,local_blks_written,bigint,,bigint
+418,local_blks_dirtied,bigint,,bigint
+419,local_blks_read,bigint,,bigint
+420,local_blks_hit,bigint,,bigint
+421,shared_blks_written,bigint,,bigint
+422,shared_blks_dirtied,bigint,,bigint
+423,shared_blks_read,bigint,,bigint
+424,shared_blks_hit,bigint,,bigint
+425,wal_bytes,double_precision,,double_precision
+426,rows,bigint,,","
+427,stddev_exec_time,double_precision,Duration,double_precision
+428,mean_exec_time,double_precision,Duration,double_precision
+429,query,character_varying,,character_varying
+430,min_plan_time,double_precision,Duration,double_precision
+431,total_plan_time,double_precision,Duration,double_precision
+432,plans,bigint,,bigint
+433,queryid,bigint,,bigint
+434,toplevel,boolean,,boolean
+437,wal_records,bigint,,bigint
+438,dealloc,bigint,,bigint
+439,stats_reset,timestamp,Scheduled Time,timestamp
+440,id,bigint,bigint,bigint
+441,created_at,timestamp,event timestamp,timestamp
+442,in_violation_from,timestamp,event timestamp,timestamp
+443,activity_log_id,bigint,Identifier,bigint
+444,updated_at,timestamp,event timestamp,timestamp
+445,group_allocation_id,bigint,Identifier,bigint
+446,right_identifier,character_varying,Identifier,character_varying
+447,name,character_varying,Name,character_varying
+448,id,bigint,Identifier,bigint
+449,area_uuid,uuid,uuid,uuid
+450,car_park_id,bigint,Identifier,bigint
+451,updated_at,timestamp,event timestamp,timestamp
+452,mess_permit_owner_id,character_varying,Identifier,character_varying
+453,owner_uuid,character_varying,,character_varying
+454,exit_strategy,character_varying,,character_varying
+455,created_at,timestamp,event timestamp,timestamp
+456,mess_area_id,character_varying,Identifier,character_varying
+457,session_id,uuid,,uuid
+458,parent,character_varying,Role,character_varying
+459,created_at,timestamp,event timestamp,timestamp
+460,revoked,boolean,Flag,boolean
+461,id,bigint,Identifier,bigint
+462,instance_id,uuid,,uuid
+463,user_id,character_varying,Identifier,character_varying
+464,token,character_varying,token,character_varying
+465,updated_at,timestamp,event timestamp,timestamp
+466,updated_at,timestamp,event timestamp,timestamp
+467,user_id,bigint,Identifier,bigint
+468,id,bigint,Identifier,bigint
+470,email,character_varying,Email,character_varying
+471,duration_parking_actions_per_vehicle,boolean,Duration,boolean
+472,spot_allocation,boolean,Quantity,bigint
+473,building_id,bigint,Identifier,bigint
+474,sum_all_parking_actions_per_tenant,boolean,Total,double_precision
+475,created_at,timestamp,event timestamp,timestamp
+476,entity_id,character_varying,Identifier,character_varying
+477,updated_at,timestamp,event timestamp,timestamp
+478,created_at,timestamp,event timestamp,timestamp
+479,id,uuid,,uuid
+480,attribute_mapping,json,configuration,json
+481,metadata_xml,character_varying,metadata,character_varying
+482,sso_provider_id,uuid,,uuid
+483,metadata_url,character_varying,,character_varying
+484,updated_at,timestamp,event timestamp,timestamp
+485,redirect_to,character_varying,location,character_varying
+486,id,uuid,,uuid
+487,sso_provider_id,uuid,,uuid
+488,from_ip_address,inet,ip address,inet
+489,flow_state_id,uuid,,uuid
+490,created_at,timestamp,event timestamp,timestamp
+491,request_id,character_varying,Identifier,character_varying
+492,for_email,character_varying,Email,character_varying
+493,version,character_varying,,character_varying
+494,version,character_varying,,character_varying
+495,name,character_varying,Name,character_varying
+496,description,character_varying,Description,character_varying
+497,secret,character_varying,Description,character_varying
+498,nonce,bytea,,bytea
+499,created_at,timestamp,event timestamp,timestamp
+500,key_id,uuid,,uuid
+501,id,uuid,,uuid
+502,updated_at,timestamp,event timestamp,timestamp
+503,user_id,uuid,,uuid
+504,id,uuid,,uuid
+505,created_at,timestamp,event timestamp,timestamp
+506,not_after,timestamp,event timestamp,timestamp
+508,updated_at,timestamp,event timestamp,timestamp
+509,factor_id,uuid,,uuid
+510,proj4text,character_varying,,character_varying
+511,auth_name,character_varying,Name,character_varying
+512,srid,bigint,,bigint
+513,auth_srid,bigint,,bigint
+514,srtext,character_varying,,character_varying
+515,id,uuid,,uuid
+516,sso_provider_id,uuid,,uuid
+517,created_at,timestamp,event timestamp,timestamp
+518,updated_at,timestamp,event timestamp,timestamp
+519,domain,character_varying,Category,character_varying
+520,created_at,timestamp,event timestamp,timestamp
+521,updated_at,timestamp,event timestamp,timestamp
+522,resource_id,character_varying,Identifier,character_varying
+523,id,uuid,,uuid
+524,id,bigint,Identifier,bigint
+525,updated_at,timestamp,event timestamp,timestamp
+526,mess_area_id,character_varying,Identifer,character_varying
+527,created_at,timestamp,event timestamp,timestamp
+528,tenant_id,bigint,Identifier,bigint
+529,spots_allocated,bigint,Count,bigint
+530,car_park_id,bigint,Identifer,bigint
+531,area_uuid,uuid,uuid,uuid
+532,for_reservations,boolean,Flag,boolean
+533,organisation_uuid,character_varying,,","
+534,id,bigint,Identifer,bigint
+535,building_id,bigint,Identifer,bigint
+536,created_at,timestamp,event timestamp,timestamp
+537,updated_at,timestamp,event timestamp,timestamp
+538,phone_number,character_varying,phone number,character_varying
+539,name,character_varying,character varying,character_varying
+540,shared,boolean,,boolean
+541,mess_permit_owner_id,character_varying,Identifier,character_varying
+542,email_change_token_current,character_varying,token,character_varying
+543,email_change,character_varying,Email,character_varying
+544,email_change_token_new,character_varying,token,character_varying
+545,recovery_token,character_varying,token,character_varying
+546,id,bigint,Identifier,bigint
+547,confirmation_token,character_varying,token,character_varying
+548,encrypted_password,character_varying,binary data,bytea
+549,roles,json,,json
+550,email,character_varying,Email,character_varying
+551,role,character_varying,Role,character_varying
+552,created_at,timestamp,event timestamp,timestamp
+553,updated_at,timestamp,event timestamp,timestamp
+554,admin,boolean,,boolean
+555,aud,character_varying,,character_varying
+556,email,character_varying,Email,character_varying
+557,recent_building_ids,character_varying,,character_varying
+558,uuid,character_varying,uuid,uuid
+559,last_name,character_varying,Name,character_varying
+560,deleted_at,timestamp,event timestamp,timestamp
+561,is_sso_user,boolean,Flag,boolean
+562,reauthentication_token,character_varying,token,character_varying
+563,reauthentication_sent_at,timestamp,event timestamp,timestamp
+564,banned_until,timestamp,event timestamp,timestamp
+565,email_change_confirm_status,bigint,Status,bigint
+566,confirmed_at,timestamp,event timestamp,timestamp
+567,phone_change_sent_at,timestamp,event timestamp,timestamp
+568,phone_confirmed_at,timestamp,event timestamp,timestamp
+569,updated_at,timestamp,event timestamp,timestamp
+570,created_at,timestamp,event timestamp,timestamp
+571,is_super_admin,boolean,Flag,boolean
+572,raw_user_meta_data,json,metadata,json
+573,raw_app_meta_data,json,metadata,json
+574,last_sign_in_at,timestamp,event timestamp,timestamp
+575,email_change_sent_at,timestamp,event timestamp,timestamp
+576,recovery_sent_at,timestamp,event timestamp,timestamp
+577,confirmation_sent_at,timestamp,event timestamp,timestamp
+578,invited_at,timestamp,event timestamp,timestamp
+579,email_confirmed_at,timestamp,event timestamp,timestamp
+580,instance_id,uuid,,uuid
+581,phone,character_varying,phone number,character_varying
+582,phone_change,character_varying,phone number,character_varying
+583,phone_change_token,character_varying,token,character_varying
+584,first_name,character_varying,Name,character_varying
+585,associated_data,character_varying,data,json
+586,key_context,bytea,binary data,bytea
+587,key_id,bigint,Identifier,bigint
+589,id,uuid,,uuid
+590,expires,timestamp,event timestamp,timestamp
+591,created,timestamp,event timestamp,timestamp
+592,name,character_varying,Name,character_varying
+594,owner_id,bigint,Identifier,bigint
+595,id,bigint,Identifier,bigint
+596,description,character_varying,Description,character_varying
+597,url,character_varying,url,character_varying
+598,key,character_varying,Role,character_varying
+599,updated_at,timestamp,event timestamp,timestamp
+600,created_at,timestamp,event timestamp,timestamp
+601,max_retries,bigint,Count,bigint
+602,owner_type,character_varying,Category,character_varying
+603,active,boolean,Flag,boolean
+604,metadata,json,metadata,json
